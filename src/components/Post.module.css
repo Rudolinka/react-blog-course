@@ -1,0 +1,59 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	align-items: center;
+	width: 320px;
+	box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+}
+
+.title {
+	margin: 15px 20px;
+	text-align: center;
+}
+
+.short {
+	margin: 10px 10px 30px 10px;
+	text-align: justify;
+	font-size: 15px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.postImg {
+	width: 100%;
+}
+
+.card button {
+	max-width: 150px;
+}
+
+.authorBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 20px 10px 20px;
+	height: 40px;
+}
+
+.authorImg {
+	flex-direction: row;
+	justify-items: left;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.authorBox p {
+	margin: 15px 20px;
+	font-size: 15px;
+}
+
+.category {
+	position: absolute;
+	top: 1%;
+	left: 0;
+	background-color: #202027bb;
+	padding: 5px 20px 5px 5px;
+	border-radius: 0 30px 30px 0;
+}
